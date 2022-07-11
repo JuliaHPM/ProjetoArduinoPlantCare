@@ -1,12 +1,21 @@
-# Projeto Arduino Plant Care
-Projeto realizado na disciplina de Tópicos Especiais - ADS 2022/1
-Realiza leituras de sensores do arduino, se comunica via serial com uma API em Node. 
-O frontend mostra gráficos e informações com os dados registrados. 
+# Projeto Arduino Plant Care 🌱
+    Projeto realizado na disciplina de Tópicos Especiais - ADS 2022/1.
+    Realiza leituras com os sensores do Arduino e faz a rega automática se a umidade do solo estiver baixa. 
+    A API em Node realiza comunicação via serial com o Arduino, salvando os dados no banco. 
+    O frontend mostra gráficos e informações com os dados registrados. 
 
-## Componentes utilizados
+## Sensores e componentes utilizados
 - Sensor de umidade do solo
-- Relé
 - DHT
+- Relé
+- Jumpers
+- Bomba de Aquário
+
+## Tecnologias
+- React
+- Node
+- Arduino
+- ApexCharts
 
 <!-- ## Observações
 O código em Arduino -->
